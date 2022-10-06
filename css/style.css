@@ -5,6 +5,21 @@
   font-family: 'Lato', sans-serif;
 }
 
+a,
+p,
+span,
+li,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #0E0726;
   color: white;
@@ -194,5 +209,70 @@ ul {
 .account .account_content .account__text p {
   line-height: 120%;
   margin-bottom: 40px;
+}
+
+.marketPlace {
+  padding: 90px 0px;
+  background-repeat: no-repeat;
+}
+
+.marketPlace h2 {
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 120%;
+  color: #9DB4D3;
+  margin-bottom: 130px;
+  text-align: center;
+}
+
+.marketPlace .marketPlace__items {
+  margin-bottom: 80px;
+}
+
+.marketPlace .marketPlace__items .mpItems__list {
+  background: #130A35;
+  -webkit-box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 60px 32px 32px;
+  width: 385px;
+  position: relative;
+}
+
+.marketPlace .marketPlace__items .mpItems__list span {
+  position: absolute;
+  background: #130A35;
+  border: 1px solid #FFC700;
+  -webkit-box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 64px;
+  -webkit-transform: translate(100%, -50%);
+          transform: translate(100%, -50%);
+}
+
+.marketPlace .marketPlace__items .mpItems__list span p {
+  font-size: 31px;
+  color: #FFC700;
+}
+
+.marketPlace .marketPlace__items .mpItems__list h5 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 120%;
+  color: #FFC700;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
