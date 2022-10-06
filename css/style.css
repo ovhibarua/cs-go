@@ -214,6 +214,7 @@ ul {
 .marketPlace {
   padding: 90px 0px;
   background-repeat: no-repeat;
+  background-position: 35% -105%;
 }
 
 .marketPlace h2 {
