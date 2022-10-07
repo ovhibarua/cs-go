@@ -1,8 +1,9 @@
 //  HEADER SLIDER
 var swiper = new Swiper(".headerSwiper", {
     slidesPerView: 5,
-    spaceBetween: 20,
+    spaceBetween: 15,
     loop: true,
+    speed: 1000,
     pagination: {
         el: ".swiper-pagination",
         type: "fraction",

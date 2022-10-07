@@ -80,10 +80,179 @@ ul {
   margin-bottom: 24px;
 }
 
-.header_area .headerSwiper .swiper-slide {
-  height: 500px;
-  background: orange;
+.header_area .header__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+  padding: 80px 0px;
+}
+
+.header_area .header__slider .bt__deals {
+  width: 60%;
+}
+
+.header_area .header__slider .bt__deals span {
+  background: #01CDED;
+  border-radius: 2px;
+  padding: 8px 15px;
+  display: block;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
   color: #0E0726;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.header_area .header__slider .bt__deals h4 {
+  font-weight: 400;
+  font-size: 39px;
+  color: #9DB4D3;
+}
+
+.header_area .headerSwiper .swiper-pagination-fraction {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: auto;
+  right: 7.4%;
+  top: 94%;
+}
+
+.header_area .headerSwiper .swiper-button-prev {
+  left: auto;
+  right: 10%;
+  top: 88%;
+  background: #2C1F59;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.header_area .headerSwiper .swiper-button-prev::after {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.header_area .headerSwiper .swiper-button-next {
+  left: auto;
+  right: 5%;
+  top: 88%;
+  background: #2C1F59;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.header_area .headerSwiper .swiper-button-next::after {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.header_area .headerSwiper .swiper-slide {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(54.17%, rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.2)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 54.17%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 4px;
+  color: white;
+  padding: 15px;
+  border: 1px solid #222222d1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 90px;
+  height: 305px;
+}
+
+.header_area .headerSwiper .swiper-slide:hover {
+  border: 1px solid #ffffff66;
+}
+
+.header_area .headerSwiper .swiper-slide p i {
+  margin-right: 11px;
+}
+
+.header_area .headerSwiper .swiper-slide img {
+  height: 123px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header_area .headerSwiper .swiper-slide h6 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header_area .headerSwiper .swiper-slide h6 span {
+  color: #01CDED;
+}
+
+.header_area .headerSwiper .swiper-slide .dis__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header_area .headerSwiper .swiper-slide .dis__price .dis {
+  margin-bottom: 5px;
+}
+
+.header_area .headerSwiper .swiper-slide .dis__price .dis span {
+  font-weight: 400;
+  font-size: 13px;
+  color: #05BB59;
+  padding: 4px;
+  background: #1E4E34;
+  border-radius: 4px;
+}
+
+.header_area .headerSwiper .swiper-slide .dis__price .dis p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFC700;
+}
+
+.header_area .headerSwiper .swiper-slide .dis__price .pinCode {
+  margin-bottom: 16px;
+}
+
+.header_area .headerSwiper .swiper-slide .dis__price .pinCode span {
+  font-weight: 400;
+  font-size: 13px;
+  text-align: right;
+  color: #9DB4D3;
+}
+
+.header_area .headerSwiper .swiper-slide .dis__price .pinCode p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: right;
+  color: #9DB4D3;
+}
+
+.header_area .headerSwiper .swiper-slide .dis__price .pinCode p i {
+  margin-right: 4px;
 }
 
 .header_area .hero_bnnr {
@@ -173,7 +342,7 @@ ul {
 }
 
 .account {
-  padding: 128px 0px;
+  padding: 108px 0px;
   position: relative;
 }
 

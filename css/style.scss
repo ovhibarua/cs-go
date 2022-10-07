@@ -79,11 +79,160 @@ ul {
         margin-bottom: 24px;
     }
 
+    .header__slider {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 80px 0px;
+
+        .bt__deals {
+            width: 60%;
+
+            span {
+                background: #01CDED;
+                border-radius: 2px;
+                padding: 8px 15px;
+                display: block;
+                font-weight: 700;
+                font-size: 13px;
+                text-transform: uppercase;
+                color: #0E0726;
+                width: fit-content;
+                margin-bottom: 20px;
+            }
+
+            h4 {
+                font-weight: 400;
+                font-size: 39px;
+                color: #9DB4D3;
+            }
+        }
+    }
+
     .headerSwiper {
+        .swiper-pagination-fraction {
+            width: fit-content;
+            left: auto;
+            right: 7.4%;
+            top: 94%;
+        }
+
+        .swiper-button-prev {
+            left: auto;
+            right: 10%;
+            top: 88%;
+            background: #2C1F59;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+
+            &::after {
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+            }
+        }
+
+        .swiper-button-next {
+            left: auto;
+            right: 5%;
+            top: 88%;
+            background: #2C1F59;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+
+            &::after {
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+            }
+        }
+
         .swiper-slide {
-            height: 500px;
-            background: orange;
-            color: #0E0726;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 54.17%, rgba(255, 255, 255, 0.2) 100%);
+            border-radius: 4px;
+            color: white;
+            padding: 15px;
+            border: 1px solid #222222d1;
+            transition: 0.3s;
+            margin-bottom: 90px;
+            height: 305px;
+
+            &:hover {
+                border: 1px solid #ffffff66;
+            }
+
+            p {
+                i {
+                    margin-right: 11px;
+                }
+            }
+
+            img {
+                height: 123px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            h6 {
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+
+                span {
+                    color: #01CDED;
+                }
+            }
+
+            .dis__price {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .dis {
+                    margin-bottom: 5px;
+
+                    span {
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #05BB59;
+                        padding: 4px;
+                        background: #1E4E34;
+                        border-radius: 4px;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #FFC700;
+                    }
+                }
+
+                .pinCode {
+                    margin-bottom: 16px;
+
+                    span {
+                        font-weight: 400;
+                        font-size: 13px;
+                        text-align: right;
+                        color: #9DB4D3;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 20px;
+                        text-align: right;
+                        color: #9DB4D3;
+
+                        i {
+                            margin-right: 4px;
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -154,7 +303,7 @@ ul {
 }
 
 .account {
-    padding: 128px 0px;
+    padding: 108px 0px;
     position: relative;
 
     .shining {
