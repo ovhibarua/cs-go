@@ -40,6 +40,19 @@ ul {
     list-style-type: none;
 }
 
+.menu {
+    border: none;
+
+    span {
+        color: white;
+        background-image: none;
+
+        i {
+            font-size: 25px;
+        }
+    }
+}
+
 .btn {
     background: #FFC700;
     border-radius: 8px;
@@ -402,6 +415,7 @@ ul {
 
 .footer {
     padding-bottom: 70px;
+
     .footer__content {
         p {
             font-size: 14px;
@@ -415,18 +429,21 @@ ul {
     }
 
     .footer__list {
-        ul{
-            li{
+        ul {
+            li {
                 margin-bottom: 10px;
-                a{
+
+                a {
                     transition: 0.3s;
-                    &:hover{
+
+                    &:hover {
                         margin-left: 5px;
                         color: #FFC700 !important;
                     }
                 }
             }
         }
+
         h3 {
             font-weight: 400;
             font-size: 20px;
@@ -441,4 +458,112 @@ ul {
         }
     }
 
+}
+
+
+// =============== RESPONSIVE =================
+
+@media all and (max-width: 1400px) {
+    .header_area .header__slider .bt__deals {
+        width: 90%;
+    }
+
+    .header_area .h_nav {
+        gap: 65px;
+    }
+
+    .header_area .headerSwiper .swiper-button-prev {
+        right: 11%;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .header_area .headerSwiper .swiper-button-prev {
+        right: 13%;
+    }
+
+    .account .account_content .account__text {
+        left: 45%;
+        width: 50%;
+    }
+
+    .header_area .header__slider .bt__deals h4 {
+        font-size: 34px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .header_area .h_nav {
+        gap: 25px;
+    }
+
+    .marketPlace .marketPlace__items .mpItems__list {
+        width: 50%;
+    }
+
+    .marketPlace .marketPlace__items {
+        gap: 50px;
+    }
+
+    .header_area h3 {
+        width: 80%;
+    }
+
+    .header_area .header__slider {
+        flex-direction: column;
+    }
+
+    .headerSwiper {
+        width: 100%;
+    }
+
+    .header_area .headerSwiper .swiper-button-prev {
+        right: 55%;
+    }
+
+    .header_area .headerSwiper .swiper-button-next {
+        right: 45%;
+    }
+
+    .header_area .headerSwiper .swiper-pagination-fraction {
+        right: 49.8%;
+    }
+
+    .account .account_content .account__text {
+        position: initial;
+        transform: inherit;
+        width: 100%;
+    }
+
+    .account .account_content {
+        padding: 50px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .marketPlace {
+        background-position: 84% -53%;
+    }
+}
+
+@media all and (max-width: 567px) {
+    .marketPlace {
+        background-position: 74% -21%;
+    }
+
+    .marketPlace .marketPlace__items .mpItems__list {
+        width: 100%;
+    }
+
+    .marketPlace .marketPlace__items {
+        flex-direction: column;
+    }
+
+    .header_area .headerSwiper .swiper-button-next {
+        right: 40%;
+    }
+
+    .header_area .headerSwiper .swiper-pagination-fraction {
+        right: 46.8%;
+    }
 }

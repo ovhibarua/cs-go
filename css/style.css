@@ -39,6 +39,19 @@ ul {
   list-style-type: none;
 }
 
+.menu {
+  border: none;
+}
+
+.menu span {
+  color: white;
+  background-image: none;
+}
+
+.menu span i {
+  font-size: 25px;
+}
+
 .btn {
   background: #FFC700;
   border-radius: 8px;
@@ -489,5 +502,99 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
+}
+
+@media all and (max-width: 1400px) {
+  .header_area .header__slider .bt__deals {
+    width: 90%;
+  }
+  .header_area .h_nav {
+    gap: 65px;
+  }
+  .header_area .headerSwiper .swiper-button-prev {
+    right: 11%;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .header_area .headerSwiper .swiper-button-prev {
+    right: 13%;
+  }
+  .account .account_content .account__text {
+    left: 45%;
+    width: 50%;
+  }
+  .header_area .header__slider .bt__deals h4 {
+    font-size: 34px;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .header_area .h_nav {
+    gap: 25px;
+  }
+  .marketPlace .marketPlace__items .mpItems__list {
+    width: 50%;
+  }
+  .marketPlace .marketPlace__items {
+    gap: 50px;
+  }
+  .header_area h3 {
+    width: 80%;
+  }
+  .header_area .header__slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .headerSwiper {
+    width: 100%;
+  }
+  .header_area .headerSwiper .swiper-button-prev {
+    right: 55%;
+  }
+  .header_area .headerSwiper .swiper-button-next {
+    right: 45%;
+  }
+  .header_area .headerSwiper .swiper-pagination-fraction {
+    right: 49.8%;
+  }
+  .account .account_content .account__text {
+    position: initial;
+    -webkit-transform: inherit;
+            transform: inherit;
+    width: 100%;
+  }
+  .account .account_content {
+    padding: 50px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .marketPlace {
+    background-position: 84% -53%;
+  }
+}
+
+@media all and (max-width: 567px) {
+  .marketPlace {
+    background-position: 74% -21%;
+  }
+  .marketPlace .marketPlace__items .mpItems__list {
+    width: 100%;
+  }
+  .marketPlace .marketPlace__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header_area .headerSwiper .swiper-button-next {
+    right: 40%;
+  }
+  .header_area .headerSwiper .swiper-pagination-fraction {
+    right: 46.8%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
