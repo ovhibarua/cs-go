@@ -445,4 +445,49 @@ ul {
   color: #FFC700;
   margin-bottom: 15px;
 }
+
+.footer {
+  padding-bottom: 70px;
+}
+
+.footer .footer__content p {
+  font-size: 14px;
+}
+
+.footer .footer__content span {
+  font-weight: 400;
+  font-size: 13px;
+  color: #9DB4D3;
+}
+
+.footer .footer__list ul li {
+  margin-bottom: 10px;
+}
+
+.footer .footer__list ul li a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer .footer__list ul li a:hover {
+  margin-left: 5px;
+  color: #FFC700 !important;
+}
+
+.footer .footer__list h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #9DB4D3;
+  margin-bottom: 32px;
+}
+
+.footer .footer__list .payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
 /*# sourceMappingURL=style.css.map */
