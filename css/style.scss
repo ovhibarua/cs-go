@@ -65,13 +65,24 @@ ul {
 
 }
 
+.or__list{
+    list-style-type: circle;
+    list-style-position: inside;
+    li{
+        padding-top: 15px;
+    }
+}
+
 .section__title {
     h1 {
         font-weight: 400;
         font-size: 49px;
         line-height: 120%;
         color: #FFFFFF;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
+    }
+    .bi{
+        color: #FFC700;
     }
 
     .breadcrumb-item {

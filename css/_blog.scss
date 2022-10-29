@@ -2,11 +2,29 @@
     overflow: hidden;
     border-radius: 16px;
     border: solid 1px #8080804f;
-    .blog_img{
-        img{
+
+    .arSide_img {
+        img {
+            height: 140px !important;
+        }
+    }
+
+    .ar_img {
+        img {
+            height: 540px;
+        }
+    }
+
+    .ar_para {
+        color: #FFFFFF !important;
+    }
+
+    .blog_img {
+        img {
             height: 332px;
         }
     }
+
     .bl {
         width: 100%;
     }
@@ -50,10 +68,37 @@
             display: flex;
             align-items: center;
             gap: 20px;
-            i{
+
+            i {
                 color: #FFC700;
                 margin-top: 5px;
             }
         }
+    }
+}
+
+.latest {
+    font-weight: 700;
+    font-size: 13px;
+    width: fit-content;
+    text-transform: uppercase;
+    line-height: 120%;
+    color: #0E0726;
+    background: #01CDED;
+    border-radius: 2px;
+    padding: 9px 14px;
+}
+
+.policy {
+    span {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 120%;
+        color: #FFC700;
+        background: #3D361D;
+        border-radius: 4px;
+        padding: 8px;
+        margin-bottom: 24px;
+        display: inline-block;
     }
 }

@@ -516,6 +516,18 @@
   border: solid 1px #8080804f;
 }
 
+.blog .arSide_img img {
+  height: 140px !important;
+}
+
+.blog .ar_img img {
+  height: 540px;
+}
+
+.blog .ar_para {
+  color: #FFFFFF !important;
+}
+
 .blog .blog_img img {
   height: 332px;
 }
@@ -573,6 +585,32 @@
 .blog .blog_content a i {
   color: #FFC700;
   margin-top: 5px;
+}
+
+.latest {
+  font-weight: 700;
+  font-size: 13px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  line-height: 120%;
+  color: #0E0726;
+  background: #01CDED;
+  border-radius: 2px;
+  padding: 9px 14px;
+}
+
+.policy span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  color: #FFC700;
+  background: #3D361D;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 24px;
+  display: inline-block;
 }
 
 * {
@@ -636,12 +674,25 @@ ul {
   color: #FFC700 !important;
 }
 
+.or__list {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.or__list li {
+  padding-top: 15px;
+}
+
 .section__title h1 {
   font-weight: 400;
   font-size: 49px;
   line-height: 120%;
   color: #FFFFFF;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
+}
+
+.section__title .bi {
+  color: #FFC700;
 }
 
 .section__title .breadcrumb-item a {
