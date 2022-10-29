@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @import 'market';
+@import 'blog';
 
 * {
     padding: 0;
@@ -53,6 +54,39 @@ ul {
             font-size: 25px;
         }
     }
+}
+
+.fq_ac {
+    color: #FFC700 !important;
+
+    span {
+        color: #FFC700 !important;
+    }
+
+}
+
+.section__title {
+    h1 {
+        font-weight: 400;
+        font-size: 49px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+
+    .breadcrumb-item {
+        a {
+            font-weight: 400 !important;
+            font-size: 16px !important;
+            line-height: 120% !important;
+            color: #FFC700 !important;
+        }
+    }
+}
+
+.section_center{
+    width: 1058px;
+    margin: 0 auto;
 }
 
 .btn {

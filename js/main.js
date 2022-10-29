@@ -35,3 +35,15 @@ var swiper = new Swiper(".headerSwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+// MARKETING SLIDER
+var swiper = new Swiper(".mrslider", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    slidesPerView: 3,
+    spaceBetween: 24,
+    loop: true,
+    speed: 1000,
+});
