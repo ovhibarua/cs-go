@@ -613,6 +613,100 @@
   display: inline-block;
 }
 
+.ab__para p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.ab__para .ab__goal h5 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 120%;
+  color: #9DB4D3;
+}
+
+.ab__service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 24px;
+}
+
+.ab__service .abService__img img {
+  max-width: inherit;
+}
+
+.ab__service .abService__content h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFC700;
+}
+
+.ab__investor h5 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 120%;
+  color: #9DB4D3;
+}
+
+.inven__box {
+  background: linear-gradient(96.78deg, rgba(255, 255, 255, 0.03) 1.73%, rgba(255, 255, 255, 0) 106.49%);
+  border-radius: 50px;
+  padding: 50px 80px;
+  border: solid 1px #8080804f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1058px;
+}
+
+.inven__box .inven__content h3 {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 120%;
+  color: #9DB4D3;
+}
+
+.inven__box .inven__content p {
+  width: 80%;
+}
+
+.inven__box .inven__content a {
+  color: black !important;
+}
+
+.inven__itemBox .inven_p2 {
+  border: 1px solid #FFC700;
+  border-radius: 8px;
+  gap: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #FFC700 !important;
+}
+
+.inven__itemBox .inven_p {
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  gap: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white !important;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -988,27 +1082,6 @@ ul {
   font-size: 13px;
 }
 
-.header_area .connect_btn .h_btn {
-  padding: 15px 24px 15px 24px;
-  background: #0E0726;
-  border: 2px solid #FFC700;
-  border-radius: 8px;
-  font-size: 18px;
-  color: #FFC700;
-  font-weight: 700;
-}
-
-.header_area .connect_btn .h_btn i {
-  margin-right: 5px;
-}
-
-.header_area .connect_btn .h_btn:hover {
-  background: #FFC700;
-  color: #0E0726;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
 .account {
   padding: 108px 0px;
   position: relative;
@@ -1046,6 +1119,27 @@ ul {
 .account .account_content .account__text p {
   line-height: 120%;
   margin-bottom: 40px;
+}
+
+.h_btn {
+  padding: 15px 24px 15px 24px;
+  background: #0E0726;
+  border: 2px solid #FFC700;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #FFC700;
+  font-weight: 700;
+}
+
+.h_btn i {
+  margin-right: 5px;
+}
+
+.h_btn:hover {
+  background: #FFC700;
+  color: #0E0726;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .marketPlace {

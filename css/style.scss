@@ -2,12 +2,18 @@
 
 @import 'market';
 @import 'blog';
+@import 'about';
 
 * {
     padding: 0;
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+
+// .container{
+//     max-width: 1600px;
+//     margin: 0 auto;
+// }
 
 a,
 p,
@@ -340,25 +346,7 @@ ul {
     }
 
     .connect_btn {
-        .h_btn {
-            padding: 15px 24px 15px 24px;
-            background: #0E0726;
-            border: 2px solid #FFC700;
-            border-radius: 8px;
-            font-size: 18px;
-            color: #FFC700;
-            font-weight: 700;
-
-            i {
-                margin-right: 5px;
-            }
-
-            &:hover {
-                background: #FFC700;
-                color: #0E0726;
-                transition: 0.3s;
-            }
-        }
+        
     }
 }
 
@@ -399,6 +387,26 @@ ul {
         }
     }
 }
+
+.h_btn {
+            padding: 15px 24px 15px 24px;
+            background: #0E0726;
+            border: 2px solid #FFC700;
+            border-radius: 8px;
+            font-size: 18px;
+            color: #FFC700;
+            font-weight: 700;
+
+            i {
+                margin-right: 5px;
+            }
+
+            &:hover {
+                background: #FFC700;
+                color: #0E0726;
+                transition: 0.3s;
+            }
+        }
 
 .marketPlace {
     padding: 90px 0px;
