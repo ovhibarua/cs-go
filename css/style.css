@@ -886,6 +886,64 @@
   margin-left: 5px;
 }
 
+.deposit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+}
+
+.deposit .pay {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.deposit .pay h4 {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+
+.deposit .pay p {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #FFC700;
+}
+
+.deposit .pay p span {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 120%;
+  color: #9DB4D3;
+}
+
+.deposit .pay .pay__tran {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #9DB4D3;
+}
+
+.deposit .pay .pay__img {
+  background: #0E0726;
+  -webkit-box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  padding: 80px 60px;
+  border: 1px solid #ffffff66;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
 * {
   padding: 0;
   margin: 0;
