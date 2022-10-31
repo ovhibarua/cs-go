@@ -3,6 +3,7 @@
 @import 'market';
 @import 'blog';
 @import 'about';
+@import 'modal';
 
 * {
     padding: 0;
@@ -71,10 +72,11 @@ ul {
 
 }
 
-.or__list{
+.or__list {
     list-style-type: circle;
     list-style-position: inside;
-    li{
+
+    li {
         padding-top: 15px;
     }
 }
@@ -87,7 +89,8 @@ ul {
         color: #FFFFFF;
         margin-bottom: 40px;
     }
-    .bi{
+
+    .bi {
         color: #FFC700;
     }
 
@@ -101,7 +104,7 @@ ul {
     }
 }
 
-.section_center{
+.section_center {
     width: 1058px;
     margin: 0 auto;
 }
@@ -345,9 +348,7 @@ ul {
         }
     }
 
-    .connect_btn {
-        
-    }
+    .connect_btn {}
 }
 
 .account {
@@ -389,24 +390,24 @@ ul {
 }
 
 .h_btn {
-            padding: 15px 24px 15px 24px;
-            background: #0E0726;
-            border: 2px solid #FFC700;
-            border-radius: 8px;
-            font-size: 18px;
-            color: #FFC700;
-            font-weight: 700;
+    padding: 15px 24px 15px 24px;
+    background: #0E0726;
+    border: 2px solid #FFC700;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #FFC700;
+    font-weight: 700;
 
-            i {
-                margin-right: 5px;
-            }
+    i {
+        margin-right: 5px;
+    }
 
-            &:hover {
-                background: #FFC700;
-                color: #0E0726;
-                transition: 0.3s;
-            }
-        }
+    &:hover {
+        background: #FFC700;
+        color: #0E0726;
+        transition: 0.3s;
+    }
+}
 
 .marketPlace {
     padding: 90px 0px;
@@ -516,109 +517,4 @@ ul {
 }
 
 
-// =============== RESPONSIVE =================
-
-@media all and (max-width: 1400px) {
-    .header_area .header__slider .bt__deals {
-        width: 90%;
-    }
-
-    .header_area .h_nav {
-        gap: 65px;
-    }
-
-    .header_area .headerSwiper .swiper-button-prev {
-        right: 11%;
-    }
-}
-
-@media all and (max-width: 1200px) {
-    .header_area .headerSwiper .swiper-button-prev {
-        right: 13%;
-    }
-
-    .account .account_content .account__text {
-        left: 45%;
-        width: 50%;
-    }
-
-    .header_area .header__slider .bt__deals h4 {
-        font-size: 34px;
-    }
-}
-
-@media all and (max-width: 992px) {
-    .header_area .h_nav {
-        gap: 25px;
-    }
-
-    .marketPlace .marketPlace__items .mpItems__list {
-        width: 50%;
-    }
-
-    .marketPlace .marketPlace__items {
-        gap: 50px;
-    }
-
-    .header_area h3 {
-        width: 80%;
-    }
-
-    .header_area .header__slider {
-        flex-direction: column;
-    }
-
-    .headerSwiper {
-        width: 100%;
-    }
-
-    .header_area .headerSwiper .swiper-button-prev {
-        right: 55%;
-    }
-
-    .header_area .headerSwiper .swiper-button-next {
-        right: 45%;
-    }
-
-    .header_area .headerSwiper .swiper-pagination-fraction {
-        right: 49.8%;
-    }
-
-    .account .account_content .account__text {
-        position: initial;
-        transform: inherit;
-        width: 100%;
-    }
-
-    .account .account_content {
-        padding: 50px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    .marketPlace {
-        background-position: 84% -53%;
-    }
-}
-
-@media all and (max-width: 567px) {
-    .marketPlace {
-        background-position: 74% -21%;
-    }
-
-    .marketPlace .marketPlace__items .mpItems__list {
-        width: 100%;
-    }
-
-    .marketPlace .marketPlace__items {
-        flex-direction: column;
-    }
-
-    .header_area .headerSwiper .swiper-button-next {
-        right: 40%;
-    }
-
-    .header_area .headerSwiper .swiper-pagination-fraction {
-        right: 46.8%;
-    }
-}
+@import 'responsive';
