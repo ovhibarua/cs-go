@@ -484,7 +484,8 @@
                             <div class="modal__box">
                                 <div class="modal__title">
                                     <div class="title">
-                                        <h2><i class="fa-regular fa-circle-check"></i> Items were put on sale successfully
+                                        <h2><i class="fa-regular fa-circle-check"></i> Items were put on sale
+                                            successfully
                                         </h2>
                                     </div>
                                     <span><i class="fa-solid fa-xmark"></i></span>
@@ -515,7 +516,9 @@
                                 <div class="modal__content">
                                     <div class="modal__text">
                                         <h2>00:09:42</h2>
-                                        <p>Please deposit items from your Steam account to Dojo account by accepting the trades on Steam within 10 mins. After successful deposit, the process will continue automatically.</p>
+                                        <p>Please deposit items from your Steam account to Dojo account by accepting the
+                                            trades on Steam within 10 mins. After successful deposit, the process will
+                                            continue automatically.</p>
                                     </div>
                                     <div class="modal__btn mt-5">
                                         <button class="h_btn">cancel</button>
@@ -531,7 +534,9 @@
                                     <div class="title w-100">
                                         <h2 class="mb-3"><i class="fa-solid fa-arrow-left"></i> Deposit
                                         </h2>
-                                        <P class="mod__id d-flex justify-content-between align-items-center">Select a Deposit Method <span class="balance">Your balance <span>$20.00</span> </span></P>
+                                        <P class="mod__id d-flex justify-content-between align-items-center">Select a
+                                            Deposit Method <span class="balance">Your balance <span>$20.00</span>
+                                            </span></P>
                                     </div>
                                     <span class="off"><i class="fa-solid fa-xmark"></i></span>
                                 </div>
@@ -556,9 +561,299 @@
                                     </div>
                                     <div class="modal__btn mt-5">
                                         <button class="h_btn"><i class="fa-solid fa-xmark me-2"></i> Cancel</button>
-                                        <button class="btn"><i class="fa-solid fa-arrow-right me-2"></i> Proceed</button>
+                                        <button class="btn"><i class="fa-solid fa-arrow-right me-2"></i>
+                                            Proceed</button>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="modal__gap py-5">
+                            <!-- DEPOSIT AMOUNT -->
+                            <div class="modal__box">
+                                <div class="modal__title">
+                                    <div class="title w-100">
+                                        <h2 class="mb-3"><i class="fa-solid fa-arrow-left"></i> Deposit | Credit Card
+                                            Deposit
+                                        </h2>
+                                        <P class="mod__id d-flex justify-content-between align-items-center">Deposited
+                                            USD can only be used to purchase
+                                            items on the Market <span class="balance">Your balance <span>$20.00</span>
+                                            </span></P>
+                                    </div>
+                                    <span class="off"><i class="fa-solid fa-xmark"></i></span>
+                                </div>
+                                <div class="modal__content">
+                                    <div class="deposit d-block">
+                                        <P class="mb-3 dipo">Deposit Amount ($1 - 5000)*</P>
+                                        <div class="dipo__amount mb-3 d-flex align-items-center">
+                                            <div class="upDown">
+                                                <i class="fa-solid fa-chevron-up"></i>
+                                                <i class="fa-solid fa-chevron-down"></i>
+                                            </div>
+                                            <input type="text" name="amount" id="amount">
+                                        </div>
+                                        <span style="color: #FFC700;" class="d-flex align-items-center"><img
+                                                class="me-2" src="img/Icon.png" alt=""> Payment system commission is
+                                            5%</span>
+                                    </div>
+                                    <div class="modal__btn mt-5">
+                                        <button class="h_btn"><i class="fa-solid fa-xmark me-2"></i> Cancel</button>
+                                        <button class="btn"><i class="fa-solid fa-arrow-right me-2"></i>
+                                            Deposit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal__gap py-5">
+                            <!-- DEPOSIT DETAILS -->
+                            <div class="modal__box">
+                                <div class="modal__title">
+                                    <div class="title w-100">
+                                        <h2 class="mb-3"><i class="fa-solid fa-arrow-left"></i>Deposit | Add Card
+                                            Details
+                                        </h2>
+                                        <P class="mod__id d-flex justify-content-between align-items-center"><span
+                                                style="color: #FFC700;" class="d-flex align-items-center"><i
+                                                    class="fa-regular fa-user me-2"></i> Personal Information</span>
+                                            <span class="balance">Your balance <span>$20.00</span>
+                                            </span></P>
+                                    </div>
+                                    <span class="off"><i class="fa-solid fa-xmark"></i></span>
+                                </div>
+                                <div class="modal__content mb-5">
+                                    <div class="deposit d-block">
+                                        <P class="mb-3 dipo">First Name</P>
+                                        <div class="dipo__amount mb-3 d-flex align-items-center mb-4">
+                                            <input type="text" name="amount" id="fName" placeholder="Jhon">
+                                        </div>
+                                        <P class="mb-3 dipo">Last Name</P>
+                                        <div class="dipo__amount mb-3 d-flex align-items-center">
+                                            <input type="text" name="amount" id="lName" placeholder="e.g. Stark">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal__title">
+                                    <div class="title w-100">
+                                        <P class="mod__id d-flex justify-content-between align-items-center"><span
+                                                style="color: #FFC700;" class="d-flex align-items-center"><i
+                                                    class="fa-solid fa-window-maximize me-2"></i> Bank
+                                                Information</span></P>
+                                    </div>
+                                    <span class="off"><i class="fa-solid fa-xmark"></i></span>
+                                </div>
+                                <div class="modal__content">
+                                    <div class="deposit d-block">
+                                        <P class="mb-3 dipo">Card Number</P>
+                                        <div class="dipo__amount mb-3 d-flex align-items-center mb-4">
+                                            <input type="text" name="amount" id="number"
+                                                placeholder="1234-5678-9101-7841">
+                                        </div>
+                                        <div style="gap: 15px;" class="d-flex align-items-center">
+                                            <div class="l flex-fill">
+                                                <P class="mb-3 dipo">Expiry Date</P>
+                                                <div class="dipo__amount mb-3 d-flex align-items-center">
+                                                    <input type="text" name="amount" id="lName" placeholder="MM/YY">
+                                                </div>
+                                            </div>
+                                            <div class="r flex-fill">
+                                                <P class="mb-3 dipo">CVV</P>
+                                                <div class="dipo__amount mb-3 d-flex align-items-center">
+                                                    <input type="text" name="amount" id="lName" placeholder="123">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal__btn mt-5">
+                                        <button class="h_btn"><i class="fa-solid fa-xmark me-2"></i> Cancel</button>
+                                        <button class="btn"><i class="fa-solid fa-arrow-right me-2"></i>
+                                            Deposit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal__gap py-5">
+                            <!-- KYC POP -->
+                            <div class="modal__box">
+                                <div class="modal__title">
+                                    <div class="title">
+                                        <h2><i class="fa-solid fa-arrow-left"></i> Balance
+                                        </h2>
+                                        <p class="mod__id d-flex justify-content-start align-items-center">
+                                            <span class="balance">Your balance <span>$2000</span>
+                                            </span></p>
+                                    </div>
+                                    <span class="off"><i class="fa-solid fa-xmark"></i></span>
+                                </div>
+                                <div class="modal__content">
+                                    <div class="modal__text">
+                                        
+                                        <h2 class="kyc_t">Please complete the KYC process to use this withdrawal method</h2>
+                                        <p>The selected payment system requires the completion of the KYC (Know Your Customer) procedure that protects you from fraudulent activity. It is a simple form that will ask you to confirm your actual ID. It usually takes 10 minutes to complete. Once successfully completed, KYC is valid for any payment on Dojo.</p>
+                                    </div>
+                                    <div class="modal__btn mt-5">
+                                        <button class="btn">Proceed to KYC</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal__gap py-5">
+                            <!-- DOJO SELL -->
+                            <div class="modal__box">
+                                <div class="modal__title">
+                                    <div class="title">
+                                        <h2>Sell (3 items)
+                                        </h2>
+                                    </div>
+                                    <span class="off"><i class="fa-solid fa-xmark"></i></span>
+                                </div>
+                                <div class="djSell_box mb-4">
+                                    <div class="djPro__img">
+                                        <div class="dj__img">
+                                            <img src="img/330x192 (1) 1 (2).png" alt="">
+                                        </div>
+                                        <span class="d-block">Factory New  (FN)</span>
+                                        <p>Water elemental</p>
+                                    </div>
+                                    <div class="djPro__content">
+                                        <div class="dj__sellOption w-100 mb-4">
+                                            <div class="dj__p">
+                                                <p>Set price for the item <i class="fa-regular fa-circle-question"></i></p>
+                                                <div class="dj__op">
+                                                    <span>Custom <i class="fa-solid fa-chevron-down"></i></span>
+                                                </div>
+                                            </div>
+                                            <div class="dj__p">
+                                                <p>Pre-set price</p>
+                                                <div class="dj__op">
+                                                    <span>Recommended $0.10 <i class="fa-solid fa-chevron-down"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dj__sellOption justify-content-between w-100">
+                                            <div class="dj__p">
+                                                <p>Selling price</p>
+                                                <div class="dj__op">
+                                                    <input type="text" name="price" id="price">
+                                                </div>
+                                            </div>
+                                            <div class="dj__p">
+                                                <p>Fee</p>
+                                                <div class="">
+                                                    <span style="font-size: 30px;">5%</span>
+                                                </div>
+                                            </div>
+                                            <div class="dj__p">
+                                                <p>You’ll get</p>
+                                                <div class="">
+                                                    <span style="color: #FFC700; font-size: 25px;">$1 549.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="djSell_box mb-4">
+                                    <div class="djPro__img">
+                                        <div class="dj__img">
+                                            <img src="img/330x192 (1) 1 (2).png" alt="">
+                                        </div>
+                                        <span class="d-block">Factory New  (FN)</span>
+                                        <p>Water elemental</p>
+                                    </div>
+                                    <div class="djPro__content">
+                                        <div class="dj__sellOption w-100 mb-4">
+                                            <div class="dj__p">
+                                                <p>Set price for the item <i class="fa-regular fa-circle-question"></i></p>
+                                                <div class="dj__op">
+                                                    <span>Custom <i class="fa-solid fa-chevron-down"></i></span>
+                                                </div>
+                                            </div>
+                                            <div class="dj__p">
+                                                <p>Pre-set price</p>
+                                                <div class="dj__op">
+                                                    <span>Recommended $0.10 <i class="fa-solid fa-chevron-down"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dj__sellOption justify-content-between w-100">
+                                            <div class="dj__p">
+                                                <p>Selling price</p>
+                                                <div class="dj__op">
+                                                    <input type="text" name="price" id="price">
+                                                </div>
+                                            </div>
+                                            <div class="dj__p">
+                                                <p>Fee</p>
+                                                <div class="">
+                                                    <span style="font-size: 30px;">5%</span>
+                                                </div>
+                                            </div>
+                                            <div class="dj__p">
+                                                <p>You’ll get</p>
+                                                <div class="">
+                                                    <span style="color: #FFC700; font-size: 25px;">$1 549.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="djSell_box mb-4">
+                                    <div class="djPro__img">
+                                        <div class="dj__img">
+                                            <img src="img/330x192 (1) 1 (2).png" alt="">
+                                        </div>
+                                        <span class="d-block">Factory New  (FN)</span>
+                                        <p>Water elemental</p>
+                                    </div>
+                                    <div class="djPro__content">
+                                        <div class="dj__sellOption w-100 mb-4">
+                                            <div class="dj__p">
+                                                <p>Set price for the item <i class="fa-regular fa-circle-question"></i></p>
+                                                <div class="dj__op">
+                                                    <span>Custom <i class="fa-solid fa-chevron-down"></i></span>
+                                                </div>
+                                            </div>
+                                            <div class="dj__p">
+                                                <p>Pre-set price</p>
+                                                <div class="dj__op">
+                                                    <span>Recommended $0.10 <i class="fa-solid fa-chevron-down"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dj__sellOption justify-content-between w-100">
+                                            <div class="dj__p">
+                                                <p>Selling price</p>
+                                                <div class="dj__op">
+                                                    <input type="text" name="price" id="price">
+                                                </div>
+                                            </div>
+                                            <div class="dj__p">
+                                                <p>Fee</p>
+                                                <div class="">
+                                                    <span style="font-size: 30px;">5%</span>
+                                                </div>
+                                            </div>
+                                            <div class="dj__p">
+                                                <p>You’ll get</p>
+                                                <div class="">
+                                                    <span style="color: #FFC700; font-size: 25px;">$1 549.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="djSell__footerContent">
+                                    <div class="fc__text">
+                                        <p>Your item(s) will be listed for sale on our market for <span style="color: #FFC700;">$4 870.61</span><br><br>If the sale is successful, you will get <span style="color: #FFC700;">$4 325.17</span></p>
+                                    </div>
+                                    <div class="fc__total">
+                                        <p>Total Selling Price:</p>
+                                        <span>$4 870.61</span>
+                                    </div>
+                                </div>
+                                <p style="color: #9DB4D3;" class="mt-3">If your item is already in Dojo Inventory, it will be put on sale automatically, without having to accept a Steam Trade.</p>
+                                <div class="modal__btn mt-5 text-center">
+                                        <button class="btn">Sell</button>
+                                    </div>
                             </div>
                         </div>
                     </div>
