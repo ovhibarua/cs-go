@@ -4,6 +4,7 @@
 @import 'blog';
 @import 'about';
 @import 'modal';
+@import 'discount';
 
 * {
     padding: 0;
@@ -11,10 +12,10 @@
     font-family: 'Lato', sans-serif;
 }
 
-// .container{
-//     max-width: 1600px;
-//     margin: 0 auto;
-// }
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
 a,
 p,
