@@ -1348,6 +1348,10 @@
   margin: 0 auto;
 }
 
+.heade__nav i {
+  cursor: pointer;
+}
+
 a,
 p,
 span,
@@ -1388,6 +1392,13 @@ input {
 
 .menu {
   border: none;
+  outline: none;
+}
+
+.menu:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .menu span {
@@ -2153,6 +2164,9 @@ input {
 }
 
 @media all and (max-width: 1200px) {
+  .dis_content .range {
+    width: 100%;
+  }
   .header_area .headerSwiper .swiper-button-prev {
     right: 13%;
   }
@@ -2166,6 +2180,18 @@ input {
 }
 
 @media all and (max-width: 992px) {
+  .dis_content .range {
+    width: 505px;
+  }
+  .discountItems__area .dis__img {
+    gap: 70px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .discountItems__area .dis__title h3 {
+    font-size: 40px;
+  }
   .djSell__footerContent .fc__total span {
     font-size: 30px;
   }
@@ -2235,6 +2261,25 @@ input {
 }
 
 @media all and (max-width: 768px) {
+  .discountItems__area .dis__img .disImg_small {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 40px;
+  }
+  .discountItems__area .dis__img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .djSell__footerContent {
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -2408,6 +2453,16 @@ input {
 }
 
 @media all and (max-width: 567px) {
+  .discountItems__area .dis__img .disImg_big img {
+    width: 300px;
+    height: 300px;
+  }
+  .dis__input {
+    width: 100%;
+  }
+  .dis_content .range {
+    width: 100%;
+  }
   .sellNeed {
     font-size: 12px;
   }

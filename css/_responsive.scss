@@ -15,6 +15,10 @@
 }
 
 @media all and (max-width: 1200px) {
+    .dis_content .range {
+        width: 100%;
+    }
+
     .header_area .headerSwiper .swiper-button-prev {
         right: 13%;
     }
@@ -30,6 +34,19 @@
 }
 
 @media all and (max-width: 992px) {
+    .dis_content .range {
+        width: 505px;
+    }
+
+    .discountItems__area .dis__img {
+        gap: 70px;
+        justify-content: center;
+    }
+
+    .discountItems__area .dis__title h3 {
+        font-size: 40px;
+    }
+
     .djSell__footerContent .fc__total span {
         font-size: 30px;
     }
@@ -114,11 +131,23 @@
 }
 
 @media all and (max-width: 768px) {
+    .discountItems__area .dis__img .disImg_small {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .discountItems__area .dis__img {
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
     .djSell__footerContent {
         align-items: flex-start;
         flex-direction: column;
         gap: 20px;
     }
+
     .djPro__content {
         width: 100%;
     }
@@ -329,7 +358,19 @@
 }
 
 @media all and (max-width: 567px) {
-    
+    .discountItems__area .dis__img .disImg_big img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .dis__input {
+        width: 100%;
+    }
+
+    .dis_content .range {
+        width: 100%;
+    }
+
 
     .sellNeed {
         font-size: 12px;
