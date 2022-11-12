@@ -53,54 +53,9 @@
                             </div>
                         </div>
                     </nav>
-                    <div class="header__sortList d-flex align-items-center justify-content-between">
-                        <div class="sortList">
-                            <ul class="d-flex align-items-center justify-content-between">
-                                <li><a href="#">Knives</a></li>
-                                <li><a href="#">Gloves</a></li>
-                                <li><a href="#">Pistols</a></li>
-                                <li class="menu">
-                                    <a href="#">SMGs</a>
-                                    <ul class="sub__menu">
-                                        <li>All</li>
-                                        <li>MAC-10</li>
-                                        <li>MP5-SD</li>
-                                        <li>MP7</li>
-                                        <li>MP9</li>
-                                        <li>P90</li>
-                                        <li>PP-Bizon</li>
-                                        <li>UMP-45</li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">MGs</a></li>
-                                <li><a href="#">Rifles</a></li>
-                                <li><a href="#">Sniper Rifles</a></li>
-                                <li><a href="#">Shotguns</a></li>
-                                <li><a href="#">Other</a></li>
-                            </ul>
-                        </div>
-                        <div class="searchList d-flex align-items-center">
-                            <div class="search d-flex align-items-start">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                                <input type="text" name="sortSearch" id="sortSearch" placeholder="Search...">
-                            </div>
-                            <div class="sort__dropDown d-flex ">
-                                <span class="me-2">Sort by:</span>
-                                <div class="s__sub-dropDown menu">
-                                    <p>Float (Low to high) <i class="fa-solid fa-angle-down"></i></p>
-                                    <ul class="sub__menu">
-                                        <li>Default</li>
-                                        <li>Best deals</li>
-                                        <li>Price: High to low</li>
-                                        <li>Price: Low to high</li>
-                                        <li>Float: High to low</li>
-                                        <li>Float: Low to high</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+            </div>
+        </div>    
     </header>
     <hr class="mt-3 mb-5">
     <main>
@@ -490,7 +445,7 @@
                                     </div>
                                     <span class="off"><i class="fa-solid fa-xmark"></i></span>
                                 </div>
-                                <div class="modal__content success d-flex justify-content-between align-items-center">
+                                <div class="modal__content success d-flex justify-content-between align-items-center flex-column  flex-sm-row     ">
                                     <div class="modal__success">
                                         <img src="img/check.png" alt="">
                                     </div>
@@ -534,8 +489,8 @@
                                     <div class="title w-100">
                                         <h2 class="mb-3"><i class="fa-solid fa-arrow-left"></i> Deposit
                                         </h2>
-                                        <P class="mod__id d-flex justify-content-between align-items-center">Select a
-                                            Deposit Method <span class="balance">Your balance <span>$20.00</span>
+                                        <P class="mod__id d-flex justify-content-between align-items-start align-items-sm-center flex-column flex-sm-row  ">Select a
+                                            Deposit Method <span class="balance mt-2 mt-sm-0 ">Your balance <span>$20.00</span>
                                             </span></P>
                                     </div>
                                     <span class="off"><i class="fa-solid fa-xmark"></i></span>
@@ -575,9 +530,9 @@
                                         <h2 class="mb-3"><i class="fa-solid fa-arrow-left"></i> Deposit | Credit Card
                                             Deposit
                                         </h2>
-                                        <P class="mod__id d-flex justify-content-between align-items-center">Deposited
+                                        <P class="mod__id d-flex justify-content-between align-items-start align-items-lg-center flex-column flex-lg-row">Deposited
                                             USD can only be used to purchase
-                                            items on the Market <span class="balance">Your balance <span>$20.00</span>
+                                            items on the Market <span class="balance mt-2 mt-lg-0">Your balance <span>$20.00</span>
                                             </span></P>
                                     </div>
                                     <span class="off"><i class="fa-solid fa-xmark"></i></span>
@@ -648,14 +603,14 @@
                                             <input type="text" name="amount" id="number"
                                                 placeholder="1234-5678-9101-7841">
                                         </div>
-                                        <div style="gap: 15px;" class="d-flex align-items-center">
-                                            <div class="l flex-fill">
+                                        <div style="gap: 15px;" class="d-flex align-items-sm-center align-items-start  flex-column flex-sm-row   ">
+                                            <div class="l flex-fill w-100 w-sm-50">
                                                 <P class="mb-3 dipo">Expiry Date</P>
                                                 <div class="dipo__amount mb-3 d-flex align-items-center">
                                                     <input type="text" name="amount" id="lName" placeholder="MM/YY">
                                                 </div>
                                             </div>
-                                            <div class="r flex-fill">
+                                            <div class="r flex-fill w-100 w-sm-50">
                                                 <P class="mb-3 dipo">CVV</P>
                                                 <div class="dipo__amount mb-3 d-flex align-items-center">
                                                     <input type="text" name="amount" id="lName" placeholder="123">
@@ -720,7 +675,7 @@
                                         <p>Water elemental</p>
                                     </div>
                                     <div class="djPro__content">
-                                        <div class="dj__sellOption w-100 mb-4">
+                                        <div class="dj__sellOption w-100 mb-4 flex-column flex-md-row align-items-start align-items-md-center ">
                                             <div class="dj__p">
                                                 <p>Set price for the item <i class="fa-regular fa-circle-question"></i>
                                                 </p>
@@ -746,13 +701,13 @@
                                             <div class="dj__p">
                                                 <p>Fee</p>
                                                 <div class="">
-                                                    <span style="font-size: 30px;">5%</span>
+                                                    <span class="sellWant">5%</span>
                                                 </div>
                                             </div>
                                             <div class="dj__p">
                                                 <p>You’ll get</p>
                                                 <div class="">
-                                                    <span style="color: #FFC700; font-size: 25px;">$1 549.00</span>
+                                                    <span class="sellNeed">$1 549.00</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -767,7 +722,7 @@
                                         <p>Water elemental</p>
                                     </div>
                                     <div class="djPro__content">
-                                        <div class="dj__sellOption w-100 mb-4">
+                                        <div class="dj__sellOption w-100 mb-4 flex-column flex-md-row">
                                             <div class="dj__p">
                                                 <p>Set price for the item <i class="fa-regular fa-circle-question"></i>
                                                 </p>
@@ -793,13 +748,13 @@
                                             <div class="dj__p">
                                                 <p>Fee</p>
                                                 <div class="">
-                                                    <span style="font-size: 30px;">5%</span>
+                                                    <span class="sellWant">5%</span>
                                                 </div>
                                             </div>
                                             <div class="dj__p">
                                                 <p>You’ll get</p>
                                                 <div class="">
-                                                    <span style="color: #FFC700; font-size: 25px;">$1 549.00</span>
+                                                    <span class="sellNeed">$1 549.00</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -814,7 +769,7 @@
                                         <p>Water elemental</p>
                                     </div>
                                     <div class="djPro__content">
-                                        <div class="dj__sellOption w-100 mb-4">
+                                        <div class="dj__sellOption w-100 mb-4 flex-column flex-md-row">
                                             <div class="dj__p">
                                                 <p>Set price for the item <i class="fa-regular fa-circle-question"></i>
                                                 </p>
@@ -840,13 +795,13 @@
                                             <div class="dj__p">
                                                 <p>Fee</p>
                                                 <div class="">
-                                                    <span style="font-size: 30px;">5%</span>
+                                                    <span class="sellWant">5%</span>
                                                 </div>
                                             </div>
                                             <div class="dj__p">
                                                 <p>You’ll get</p>
                                                 <div class="">
-                                                    <span style="color: #FFC700; font-size: 25px;">$1 549.00</span>
+                                                    <span class="sellNeed">$1 549.00</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -884,7 +839,7 @@
                                     <div class="row">
                                         <div class="col-xl-12">
                                             <div class="row">
-                                                <div class="col-xl-6 pe-3">
+                                                <div class="col-sm-6 col-12 pe-3">
                                                     <div class="dis__title modal__dis mb-5">
                                                         <span>Minimal Wear (MW)</span>
                                                         <h3>Tec-9 | Terrace</h3>
@@ -895,7 +850,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-6 ps-3">
+                                                <div class="col-sm-6 col-12 ps-3">
                                                     <div class="dis_content mb-5">
                                                         <span>Float</span>
                                                         <div class="dis_avater">
@@ -924,8 +879,8 @@
                                     </div>
                                 </div>
 
-                                <div class="modal__btn mt-5 d-flex align-items-center justify-content-center">
-                                    <button class="h_btn me-2">Refill balance</button>
+                                <div class="modal__btn mt-3 mt-sm-5 d-flex align-items-center justify-content-center flex-column  flex-sm-row    ">
+                                    <button class="h_btn me-0 me-sm-2 mb-2 mb-sm-0">Refill balance</button>
                                     <button class="btn"><i class="me-2 fa-solid fa-cart-shopping"></i>
                                         Buy this skin</button>
                                 </div>
@@ -943,13 +898,13 @@
                                 </div>
                                 <div class="discountItems__area">
                                     <div class="row">
-                                        <div class="col-xl-12 d-flex align-items-center justify-content-between">
-                                            <div class="dis__title modal__dis w-50">
+                                        <div class="col-xl-12 d-flex align-items-start lign-items-sm-center justify-content-between flex-column flex-sm-row ">
+                                            <div class="dis__title modal__dis w-100 w-sm-50 ">
                                                 <span>Minimal Wear (MW)</span>
                                                 <h3>Tec-9 | Terrace</h3>
                                                 <p class="m-0">No suicide squad would be complete without it</p>
                                             </div>
-                                            <div class="dis__img w-50">
+                                            <div class="dis__img w-100 w-sm-50 ">
                                                 <div class="disImg_big2">
                                                     <img src="img/dis.png" alt="">
                                                 </div>
@@ -958,8 +913,8 @@
                                     </div>
                                 </div>
 
-                                <div class="modal__btn mt-5 d-flex align-items-center justify-content-center">
-                                    <button class="h_btn me-2">Back to Market</button>
+                                <div class="modal__btn mt-5 d-flex align-items-center justify-content-center flex-column  flex-sm-row ">
+                                    <button class="h_btn me-0 me-sm-2 mb-2 mb-sm-0">Back to Market</button>
                                     <button class="btn">Go to Dojo Inventory</button>
                                 </div>
                             </div>

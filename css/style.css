@@ -1031,9 +1031,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   gap: 20px;
 }
 
@@ -1119,6 +1116,15 @@
   font-size: 16px;
   line-height: 120%;
   color: #FFFFFF;
+}
+
+.sellNeed {
+  color: #FFC700;
+  font-size: 25px;
+}
+
+.sellWant {
+  font-size: 30px;
 }
 
 .discountItems__area .dis__title {
@@ -2160,6 +2166,33 @@ input {
 }
 
 @media all and (max-width: 992px) {
+  .djSell__footerContent .fc__total span {
+    font-size: 30px;
+  }
+  .sellWant {
+    font-size: 20px;
+  }
+  .sellNeed {
+    font-size: 20px;
+  }
+  .dj__sellOption .dj__op span {
+    font-size: 14px;
+  }
+  .dj__sellOption .dj__op {
+    padding: 12px;
+  }
+  .dj__sellOption .dj__p p {
+    font-size: 13px;
+  }
+  .djSell_box {
+    padding: 24px;
+  }
+  .djSell_box .djPro__img p {
+    font-size: 20px;
+  }
+  .djSell_box .djPro__img span {
+    font-size: 12px;
+  }
   .header_area .h_nav {
     gap: 25px;
   }
@@ -2202,12 +2235,251 @@ input {
 }
 
 @media all and (max-width: 768px) {
+  .djSell__footerContent {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .djPro__content {
+    width: 100%;
+  }
+  .dj__img {
+    text-align: center;
+  }
+  .djSell_box .djPro__img {
+    width: 100%;
+  }
+  .djSell_box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .h_btn {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .discountItems__area .dis__title p {
+    font-size: 15px;
+  }
+  .dis_content span {
+    font-size: 13px;
+  }
+  .dis_content .dis_avater h2 {
+    font-size: 26px;
+  }
+  .dis_content p {
+    font-size: 15px;
+  }
+  .discountItems__area .dis__title span {
+    font-size: 14px;
+  }
+  .modal__dis h3 {
+    font-size: 28px !important;
+  }
+  .dj__sellOption .dj__op input {
+    font-size: 14px;
+  }
+  .dj__sellOption .dj__p {
+    width: 100%;
+  }
+  .djSell__footerContent .fc__total span {
+    font-size: 25px;
+  }
+  .fc__text p {
+    font-size: 15px;
+  }
+  .dj__sellOption .dj__op span {
+    font-size: 12px;
+  }
+  .djSell_box .djPro__img span {
+    font-size: 10px;
+  }
+  .djSell_box .djPro__img p {
+    font-size: 15px;
+  }
+  .sellWant {
+    font-size: 15px;
+  }
+  .sellNeed {
+    font-size: 15px;
+  }
+  .kyc_t {
+    font-size: 20px !important;
+    margin-bottom: 20px;
+  }
+  .modal__box .modal__title {
+    margin-bottom: 24px;
+  }
+  .dipo__amount {
+    padding: 12px 14px;
+  }
+  .dipo {
+    font-size: 14px;
+  }
+  .deposit .pay p span {
+    font-size: 18px;
+  }
+  .deposit .pay p {
+    font-size: 18px;
+  }
+  .deposit .pay .pay__tran {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .deposit .pay h4 {
+    font-size: 25px;
+  }
+  .balance span {
+    font-size: 22px;
+  }
+  .balance {
+    font-size: 15px;
+  }
+  .deposit .pay .pay__img {
+    padding: 60px 40px;
+  }
+  .modal__text p {
+    font-size: 15px;
+  }
+  .modal__text h2 {
+    font-size: 32px;
+  }
+  .success img {
+    width: 184px;
+    height: 184px;
+  }
+  .succes__text {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+  .btn {
+    padding: 12px 24px 12px 24px;
+    font-size: 15px;
+  }
+  .modal__box .modal__title .title h2 {
+    font-size: 24px;
+  }
+  .mrkt_item .dis__price .dis span {
+    font-size: 10px;
+  }
+  .mrkt_item .dis__price .pinCode p {
+    font-size: 15px;
+  }
+  .modal__box .modal__content .innr .take {
+    font-size: 15px;
+  }
+  .modal__box .modal__content .innr .cancel {
+    font-size: 14px;
+  }
+  .h_btn {
+    padding: 12px 18px 12px 18px;
+    font-size: 15px;
+  }
+  .mrkt_item .dis__price .dis span {
+    font-size: 10px;
+  }
+  .modal__box .modal__title .title p {
+    font-size: 14px;
+  }
+  .modal__box .modal__title .off i {
+    font-size: 22px;
+  }
+  .modal__box {
+    padding: 40px;
+    width: 100%;
+  }
+  .mrkt_item h6 {
+    font-size: 12px;
+  }
+  .modal__box .modal__content .trade {
+    font-size: 15px;
+  }
   .marketPlace {
     background-position: 84% -53%;
   }
 }
 
 @media all and (max-width: 567px) {
+  .sellNeed {
+    font-size: 12px;
+  }
+  .dj__sellOption {
+    gap: 14px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .dipo__amount input {
+    font-size: 12px;
+  }
+  .dipo {
+    font-size: 12px;
+  }
+  .balance span {
+    font-size: 18px;
+  }
+  .balance {
+    font-size: 12px;
+  }
+  .modal__box .modal__title .title p {
+    font-size: 12px;
+  }
+  .pay__img img {
+    width: 60px;
+    height: 60px;
+  }
+  .deposit .pay .pay__img {
+    padding: 40px 26px;
+  }
+  .modal__box {
+    padding: 28px;
+  }
+  .discountItems__area .dis__title {
+    margin-bottom: 55px;
+  }
+  .discountItems__area .dis__img {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .modal__box .modal__content .modal__btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .h_btn {
+    font-size: 13px;
+  }
+  .btn {
+    font-size: 13px;
+  }
+  .success {
+    gap: 44px;
+  }
+  .success {
+    gap: 44px;
+  }
+  .modal__box .modal__title .title h2 {
+    font-size: 18px;
+  }
+  .modal__box .modal__content .innr {
+    -webkit-box-flex: inherit;
+        -ms-flex: inherit;
+            flex: inherit;
+  }
+  .market__items {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
   .marketPlace {
     background-position: 74% -21%;
   }

@@ -287,7 +287,6 @@
 
 .dj__sellOption {
     display: flex;
-    align-items: center;
     gap: 20px;
 
     .dj__p {
@@ -364,4 +363,13 @@
         line-height: 120%;
         color: #FFFFFF;
     }
+}
+
+.sellNeed {
+    color: #FFC700;
+    font-size: 25px;
+}
+
+.sellWant{
+    font-size: 30px;
 }
