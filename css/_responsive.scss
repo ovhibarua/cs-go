@@ -15,6 +15,14 @@
 }
 
 @media all and (max-width: 1200px) {
+    .section_center {
+        width: 100%;
+    }
+
+    .general__accor .g_accorItem {
+        width: 100%;
+    }
+
     .dis_content .range {
         width: 100%;
     }
@@ -34,6 +42,33 @@
 }
 
 @media all and (max-width: 992px) {
+    .general__accor .g_accorItem {
+        padding: 14px;
+    }
+
+    .general__accor .g_accorItem h2 {
+        font-size: 15px;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .mr__filter {
+        overflow: hidden;
+        height: 65px;
+    }
+
+    .mr__filter .filter {
+        border-radius: 6px;
+        padding: 18px;
+        border-bottom: inherit;
+        border: solid 2px #2C1F59;
+        margin-bottom: 8px;
+    }
+
+    .section__title h1 {
+        font-size: 32px;
+    }
+
     .dis_content .range {
         width: 505px;
     }
@@ -131,6 +166,16 @@
 }
 
 @media all and (max-width: 768px) {
+
+    .mr__filter .filter label,
+    .mr__filter .filter a {
+        font-size: 16px;
+    }
+
+    .section__title h1 {
+        font-size: 26px;
+    }
+
     .discountItems__area .dis__img .disImg_small {
         flex-direction: row;
         gap: 40px;
@@ -358,6 +403,15 @@
 }
 
 @media all and (max-width: 567px) {
+    .modal__box .modal__title .off {
+        right: 13px;
+        top: 9px;
+    }
+
+    .modal__box .modal__title .off i {
+        font-size: 18px;
+    }
+
     .discountItems__area .dis__img .disImg_big img {
         width: 300px;
         height: 300px;
