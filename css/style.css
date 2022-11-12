@@ -2164,6 +2164,22 @@ input {
 }
 
 @media all and (max-width: 1200px) {
+  .blog .blog_content a i {
+    margin-top: 2px;
+  }
+  .blog .blog_content a {
+    font-size: 14px;
+    gap: 12px;
+  }
+  .blog .blog_content p {
+    font-size: 14px;
+  }
+  .blog .blog_content h5 {
+    font-size: 20px;
+  }
+  .blog .blog_img img {
+    height: inherit;
+  }
   .section_center {
     width: 100%;
   }
@@ -2186,6 +2202,16 @@ input {
 }
 
 @media all and (max-width: 992px) {
+  .blog .blog_content span {
+    font-size: 10px;
+    padding: 6px;
+  }
+  .blog .blog_content {
+    padding: 18px;
+  }
+  .blog .blog_img img {
+    height: 332px;
+  }
   .general__accor .g_accorItem {
     padding: 14px;
   }
@@ -2209,6 +2235,7 @@ input {
   }
   .section__title h1 {
     font-size: 32px;
+    margin-bottom: 24px;
   }
   .dis_content .range {
     width: 505px;
@@ -2291,6 +2318,18 @@ input {
 }
 
 @media all and (max-width: 768px) {
+  .dn img {
+    height: inherit !important;
+  }
+  .blog .blog_img img {
+    width: 100%;
+  }
+  .blog {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .mr__filter .filter label,
   .mr__filter .filter a {
     font-size: 16px;
@@ -2490,6 +2529,20 @@ input {
 }
 
 @media all and (max-width: 567px) {
+  .blog .blog_content a {
+    font-size: 11px;
+    gap: 10px;
+  }
+  .blog .blog_content {
+    padding: 12px;
+  }
+  .blog .blog_content p {
+    font-size: 12px;
+  }
+  .blog .blog_content h5 {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
   .modal__box .modal__title .off {
     right: 13px;
     top: 9px;
