@@ -449,6 +449,10 @@
 }
 
 @media all and (max-width: 567px) {
+    .section__title h1 {
+        font-size: 22px;
+    }
+
     .blog .blog_content a {
         font-size: 11px;
         gap: 10px;
