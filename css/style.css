@@ -2206,6 +2206,13 @@ input {
 }
 
 @media all and (max-width: 992px) {
+  .settion__icon {
+    text-align: center;
+  }
+  .setting__title a {
+    font-size: 16px;
+    padding: 18px;
+  }
   .blog .blog_content span {
     font-size: 10px;
     padding: 6px;
@@ -2533,6 +2540,42 @@ input {
 }
 
 @media all and (max-width: 567px) {
+  .settion__icon .upload i {
+    font-size: 20px;
+  }
+  .settion__icon .upload {
+    top: 88%;
+    padding: 12px 14px;
+  }
+  .gene__title input {
+    padding: 12px;
+    font-size: 14px;
+  }
+  .gene__box {
+    padding: 26px;
+  }
+  .gene__title p {
+    font-size: 14px;
+  }
+  .gene__title span {
+    font-size: 16px;
+  }
+  .profile__info form label {
+    font-size: 14px;
+  }
+  .profile__info form input {
+    padding: 8px;
+    font-size: 14px;
+  }
+  .setting__status span {
+    font-size: 12px;
+  }
+  .setting__status .vari {
+    font-size: 18px;
+  }
+  .setting__status p {
+    font-size: 18px;
+  }
   .ab__service {
     gap: 18px;
   }
