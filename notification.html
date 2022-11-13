@@ -58,7 +58,7 @@
     <main class="pb-5">
         <section class="market section_center">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center justify-content-xl-start">
                     <div class="col-xl-12 section__title">
                         <nav style="--bs-breadcrumb-divider: '.';" aria-label="breadcrumb">
                             <ol class="breadcrumb">
@@ -66,58 +66,71 @@
                                 <li class="breadcrumb-item active" aria-current="page">Notifications</li>
                             </ol>
                         </nav>
-                        
+
                     </div>
-                    <div class="col-xl-9">
-                        <h1 class="fs-3 d-flex align-items-center mb-4"><img class="me-3" src="img/vector/Rectangle 14.png" alt=""> Notifications</h1>
-                        <div class="gene__content">
-                            
-                            <div class="gene__box mb-4">
-                                <div class="gene__title border border-0 p-0">
-                                    <span>General</span>
-                                    <p style="color: white;" class="mb-4">Your Subscription plan will expire in 7 Days. Please renew your plan to keep enjoying the services.</p>
-                                    <span style="color: #FFC700; cursor: pointer;" class="fs-6 m-0"><i class="fa-solid fa-xmark"></i> Clear</span>
+                    <div class="row flex-column-reverse flex-xl-row">
+                        <div class="col-xl-9">
+                            <h1 class="fs-3 d-flex align-items-center mb-4"><img class="me-3"
+                                    src="img/vector/Rectangle 14.png" alt=""> Notifications</h1>
+                            <div class="gene__content">
+
+                                <div class="gene__box mb-4">
+                                    <div class="gene__title border border-0 p-0">
+                                        <span>General</span>
+                                        <p style="color: white;" class="mb-4">Your Subscription plan will expire in 7
+                                            Days. Please renew your plan to keep enjoying the services.</p>
+                                        <span style="color: #FFC700; cursor: pointer;" class="fs-6 m-0"><i
+                                                class="fa-solid fa-xmark"></i> Clear</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="gene__box mb-4">
-                                <div class="gene__title border border-0 p-0">
-                                    <span>General</span>
-                                    <p style="color: white;" class="mb-4">Your KYC verification is completed. You are now able to withdraw your funds from the Balance tab.</p>
-                                    <span style="color: #FFC700; cursor: pointer;" class="fs-6 m-0"><i class="fa-solid fa-xmark"></i> Clear</span>
+                                <div class="gene__box mb-4">
+                                    <div class="gene__title border border-0 p-0">
+                                        <span>General</span>
+                                        <p style="color: white;" class="mb-4">Your KYC verification is completed. You
+                                            are now able to withdraw your funds from the Balance tab.</p>
+                                        <span style="color: #FFC700; cursor: pointer;" class="fs-6 m-0"><i
+                                                class="fa-solid fa-xmark"></i> Clear</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="gene__box mb-4">
-                                <div class="gene__title border border-0 p-0">
-                                    <span>System and Market Updates</span>
-                                    <p style="color: white;" class="mb-4">We improve the BitSkins platform every day by releasing new features and much more. Here's what's new in the update</p>
-                                    <p style="color: white;" class="mb-3">Website update:</p>
-                                    <h6 style="color: #9DB4D3;" class="mb-4">New Features:</h6>
-                                    <ul class="mb-4">
-                                        <li>Added <span style="color: #FFC700; text-decoration: underline; display: inline-block;">affiliate program</span></li>
-                                        <li>Added credit cards payments (deposits & withdrawals)</li>
-                                    </ul>
-                                    <p style="color: white;" class="mb-3">Extension update:</p>
-                                    <h6 style="color: #9DB4D3;" class="mb-4">Fixes:</h6>
-                                    <ul class="mb-4">
-                                        <li>General minor fixes</li>
-                                    </ul>
-                                    <span style="color: #FFC700; cursor: pointer;" class="fs-6 m-0"><i class="fa-solid fa-xmark"></i> Clear</span>
+                                <div class="gene__box mb-4">
+                                    <div class="gene__title border border-0 p-0">
+                                        <span>System and Market Updates</span>
+                                        <p style="color: white;" class="mb-4">We improve the BitSkins platform every day
+                                            by releasing new features and much more. Here's what's new in the update</p>
+                                        <p style="color: white;" class="mb-3">Website update:</p>
+                                        <h6 style="color: #9DB4D3;" class="mb-4">New Features:</h6>
+                                        <ul class="mb-4">
+                                            <li>Added <span
+                                                    style="color: #FFC700; text-decoration: underline; display: inline-block;">affiliate
+                                                    program</span></li>
+                                            <li>Added credit cards payments (deposits & withdrawals)</li>
+                                        </ul>
+                                        <p style="color: white;" class="mb-3">Extension update:</p>
+                                        <h6 style="color: #9DB4D3;" class="mb-4">Fixes:</h6>
+                                        <ul class="mb-4">
+                                            <li>General minor fixes</li>
+                                        </ul>
+                                        <span style="color: #FFC700; cursor: pointer;" class="fs-6 m-0"><i
+                                                class="fa-solid fa-xmark"></i> Clear</span>
+                                    </div>
                                 </div>
+                                <button class="h_btn"><i class="fa-solid fa-xmark"></i> Clear all</button>
                             </div>
-                            <button class="h_btn"><i class="fa-solid fa-xmark"></i> Clear all</button>
                         </div>
-                    </div>
-                    <div class="col-xl-3">
-                        <p class="d-flex align-items-center justify-content-end mb-4">Disable <span class="modeBtn ms-3"></span></p>
-                        <p style="color: #9DB4D3;" class="mb-3">Show notifications</p>
-                        <h4 class="d-flex justify-content-between align-items-center fs-6 allDown">All <i class="fa-solid fa-chevron-down"></i></h4>
+                        <div class="col-xl-3 mb-5 mb-xl-0">
+                            <p class="d-flex align-items-center justify-content-end mb-4">Disable <span
+                                    class="modeBtn ms-3"></span></p>
+                            <p style="color: #9DB4D3;" class="mb-3">Show notifications</p>
+                            <h4 class="d-flex justify-content-between align-items-center fs-6 allDown">All <i
+                                    class="fa-solid fa-chevron-down"></i></h4>
+                        </div>
                     </div>
                 </div>
             </div>
             </div>
         </section>
     </main>
-    <footer class="footer mt-5">
+    <footer class="footer mt-3 mt-lg-5">
         <div class="container">
             <hr class="mb-5">
             <div class="row">
