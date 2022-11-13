@@ -613,6 +613,10 @@
   display: inline-block;
 }
 
+.ab__para {
+  height: 100% !important;
+}
+
 .ab__para p {
   font-weight: 400;
   font-size: 16px;
@@ -2529,6 +2533,15 @@ input {
 }
 
 @media all and (max-width: 567px) {
+  .ab__service {
+    gap: 18px;
+  }
+  .ab__para .ab__goal h5 {
+    font-size: 20px;
+  }
+  .ab__para p {
+    font-size: 14px;
+  }
   .section__title h1 {
     font-size: 22px;
   }
