@@ -53,9 +53,10 @@
                             </div>
                         </div>
                     </nav>
-                    <div class="header__sortList d-flex align-items-center justify-content-between">
+                    <div class="header__sortList d-flex flex-column flex-xl-row align-items-center justify-content-between">
                         <div class="sortList">
-                            <ul class="d-flex align-items-center justify-content-between">
+                            <h2 class="justify-content-between align-items-center"><span><i class="fa-solid fa-arrow-left"></i> Filters</span> <span><i class="fa-solid fa-xmark"></i> Reset filters</span></h2>
+                            <ul class="d-flex flex-column flex-lg-row align-items-lg-center justify-content-between">
                                 <li><a href="#">Knives</a></li>
                                 <li><a href="#">Gloves</a></li>
                                 <li><a href="#">Pistols</a></li>
@@ -77,17 +78,24 @@
                                 <li><a href="#">Sniper Rifles</a></li>
                                 <li><a href="#">Shotguns</a></li>
                                 <li><a href="#">Other</a></li>
+                                <button class="btn mt-4 d-block d-lg-none">Show results</button>
                             </ul>
                         </div>
-                        <div class="searchList d-flex align-items-center">
+                        <div class="searchList d-flex flex-column flex-lg-row align-items-center">
                             <div class="search d-flex align-items-start">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                                 <input type="text" name="sortSearch" id="sortSearch" placeholder="Search...">
                             </div>
-                            <div class="sort__dropDown d-flex ">
-                                <span class="me-2">Sort by:</span>
+                            <div class="mobo__tab w-100 d-flex justify-content-between my-2 px-4 align-items-center  d-lg-none">
+                                <h6><i class="fa-solid fa-bars-staggered me-2"></i> Filters</h3>
+                                <h6><i class="fa-solid fa-table-cells-large me-2"></i> Types</h6>
+                                <h6><i class="fa-solid fa-code me-2"></i> Sort by</h6>
+                            </div>
+                            <div class="sort__dropDown d-block d-lg-flex">
+                                <h2 class="justify-content-between align-items-center"><span><i class="fa-solid fa-arrow-left"></i> Sort by</span> <span><i class="fa-solid fa-xmark"></i> Close</span></h2>
+                                <span class="me-2 d-lg-block d-none">Sort by:</span>
                                 <div class="s__sub-dropDown menu">
-                                    <p>Float (Low to high) <i class="fa-solid fa-angle-down"></i></p>
+                                    <p class="d-lg-block d-none">Float (Low to high) <i class="fa-solid fa-angle-down"></i></p>
                                     <ul class="sub__menu">
                                         <li>Default</li>
                                         <li>Best deals</li>
@@ -107,12 +115,13 @@
         <section class="market">
             <div class="container">
                 <div class="row">
-                    <div class="col-xxl-2 p-0">
-                        <div class="mr__filter">
+                    <div class="col-lg-3 px-3">
+                        <div class="mr__filter filter__fixed">
 
                             <div class="filter">
-                                <label>Filters <span><i class="fa-solid fa-xmark"></i> Reset filters</span></label>
+                                <label class="d-flex justify-content-between align-items-center">Filters <span><i class="fa-solid fa-xmark"></i> Reset filters</span></label>
                             </div>
+                            <hr class="d-block d-lg-none">
                             <div class="filter">
                                 <input type="radio" name="accordian" id="1" checked>
                                 <label for="1" class="d-flex justify-content-between align-items-center">Price <span><i
@@ -179,8 +188,8 @@
                             <button class="btn py-3 mt-4">Apply</button>
                         </div>
                     </div>
-                    <div class="col-xxl-10">
-                        <h3 class="mb-5 d-flex align-items-center">
+                    <div class="col-lg-9">
+                        <h3 class="mb-4 mb-lg-5 d-flex align-items-center">
                             <div class="inventory__icon me-3">
                                 <img style="width: 40px; height: 40px;" src="img/vector/Rectangle 14.png" alt="">
                             </div>
@@ -192,7 +201,7 @@
                                 <p class="mb-4">Your purchased items and any items you removed from sale will appear here. </p>
                                 <a href="dojoInventoryItems.html" class="btn">Check out the Market </a>
                             </div>
-                            <div class="inve__img">
+                            <div class="inve__img mb-4 mb-md-0">
                                 <img src="img/pngaaa 2.png" alt="">
                             </div>
                         </div>

@@ -12,13 +12,13 @@
     font-family: 'Lato', sans-serif;
 }
 
-.container{
+.container {
     max-width: 1400px;
     margin: 0 auto;
 }
 
-.heade__nav{
-    i{
+.heade__nav {
+    i {
         cursor: pointer;
     }
 }
@@ -64,7 +64,8 @@ input {
 .menu {
     border: none;
     outline: none;
-    &:focus{
+
+    &:focus {
         outline: none;
         box-shadow: none;
     }
@@ -605,10 +606,11 @@ input {
     padding-bottom: 20px;
     border-bottom: solid 1px #222222d1;
 
-    ul{
+    ul {
         list-style-type: disc;
         list-style-position: inside;
-        li{
+
+        li {
             padding-bottom: 8px;
         }
     }
@@ -776,5 +778,72 @@ input {
 
 }
 
+
+
+
+// ================= MORE CSS ===================
+.sortList {
+    h2 {
+        padding-bottom: 20px;
+        border-bottom: solid 1px white;
+        margin-bottom: 30px;
+        display: none;
+
+        span {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 120%;
+            color: #FFFFFF;
+        }
+
+        & span:nth-child(2) {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 120%;
+            color: #9DB4D3;
+        }
+    }
+
+    button {
+        width: fit-content;
+    }
+}
+
+.sort__dropDown {
+    h2 {
+        padding-bottom: 20px;
+        border-bottom: solid 1px white;
+        margin-bottom: 30px;
+        display: none;
+
+        span {
+            font-weight: 400 !important;
+            font-size: 18px !important;
+            line-height: 120% !important;
+            color: #FFFFFF !important;
+        }
+
+        & span:nth-child(2) {
+            font-weight: 400 !important;
+            font-size: 13px !important;
+            line-height: 120% !important;
+            color: #9DB4D3 !important;
+        }
+    }
+
+    button {
+        width: fit-content;
+    }
+}
+
+.mobo__tab {
+    h6 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #9DB4D3;
+        cursor: pointer;
+    }
+}
 
 @import 'responsive';
