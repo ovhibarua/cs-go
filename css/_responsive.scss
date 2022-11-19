@@ -91,6 +91,9 @@
 }
 
 @media all and (max-width: 992px) {
+    .balance__box {
+        padding: 28px;
+    }
 
     .inven__box .inven__content h3 {
         font-size: 28px;
@@ -336,9 +339,10 @@
 }
 
 @media all and (max-width: 768px) {
-    .sl_btn{
+    .sl_btn {
         width: fit-content !important;
     }
+
     .inven__box {
         padding: 30px;
         flex-direction: column-reverse;
@@ -479,10 +483,6 @@
 
     .dipo__amount {
         padding: 12px 14px;
-    }
-
-    .dipo {
-        font-size: 14px;
     }
 
     .deposit .pay p span {
@@ -713,10 +713,6 @@
     }
 
     .dipo__amount input {
-        font-size: 12px;
-    }
-
-    .dipo {
         font-size: 12px;
     }
 

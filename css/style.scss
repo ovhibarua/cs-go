@@ -846,4 +846,75 @@ input {
     }
 }
 
+.balance__box {
+    padding: 35px;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    border: 1px solid #222222d1;
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        color: #9DB4D3;
+        margin-bottom: 4px;
+    }
+
+    h5 {
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin-bottom: 32px
+    }
+}
+
+table,
+th,
+td {
+    border-bottom: 1px solid #222222d1;
+    padding: 20px 0px;
+}
+
+th {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #9DB4D3;
+}
+
+td {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffffe0;
+}
+
+.wid {
+    color: #EB5757;
+}
+
+.dipo {
+    color: #05BB59;
+}
+
+.moboTable {
+    tr{
+        border-bottom: 1px solid #222222d1;
+    }
+    th {
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        line-height: 120% !important;
+        color: #ffffffe0 !important;
+    }
+
+    .mobo__td {
+        font-weight: 400 !important;
+        font-size: 16px !important;
+        line-height: 120% !important;
+        color: #9DB4D3 !important;
+    }
+}
+
 @import 'responsive';
